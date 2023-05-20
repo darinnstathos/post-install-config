@@ -172,4 +172,47 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 
 <h3>Item 6: Configure Users (customers)</h3>
 
+<Strong>What are Users?</strong>
+
+<p>According to osTicket, "Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address in the User Directory of the help desk." Users are the people who are experienching technical difficulties and require assistance from agents.</p>
+
+osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html
+
+1. Navigate to 'Agent Portal'
+2. Select 'Users' > Select 'Add a New User'
+3. For example purposes:
+
+- Email: karen@osticket.com
+- Name: Karen Karen
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+4. Navigate back to 'Users' > Select 'Add a New User'
+5. For example purposes:
+
+- Email: ken@osticket.com
+- Name: Ken Ken
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Item 7: Configure SLA</h3>
+
+<Strong>What are SLAs?</strong>
+
+<p>SLA stands for Service Level Agreement. They are meant to outline the agreed-upon levels of service that an IT department or service provider commits to deliver to its customers or end-users. These agreements typically cover areas such as response times, uptime, availability, resolution times, and other performance metrics, ensuring that IT services align with business needs and expectations. SLAs in IT help establish accountability, define service quality standards, and provide a basis for measuring and improving IT service delivery.</p>
+
+<p>According to osTicket, "SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed."</p>
+  
+  osTicket documentation on SLAs: https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html
+  
+  
+
+
+
+
+  
+  
 
