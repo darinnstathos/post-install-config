@@ -208,6 +208,72 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
   
   osTicket documentation on SLAs: https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html
   
+  1. Navigate to 'Admin Panel' > select 'Manage' > select 'SLA' > select 'Add a New SLA Plan'
+  2. Name: 'SEV-A'
+
+<p>In this example, SEV-A is meant to symbolize a top-priority SLA ticket that has significant business impact if not resolved. An example of a SEV-A ticket would be the entire western region's computers going down or a malware attack leaking user and company private information.</p>
+
+- Time period: '24/7'
+
+<p>This means that this ticket should be solved as soon as possible within the time scope set in the next section. This means that is a ticket comes in even on the weekend, it must be resolved within the time frame created below.</p>
+
+- Hour setting: '1 hour'
+
+<p>1 hour to solve a ticket is highly unreasonable. However, in this example, it's meant to depict how soon the ticket should be resolved or the time span granted to resolve the ticket. Since SEV-A is the most crucial type of ticket, it should be solved as soon as possible. Thus, if a SEV-A ticket came in Saturday morning 8am, it should be resolved by Saturday morning 9am.</p>
+
+- select 'Add Plan'
+
+3. Select 'Add new SLA Plan' 
+4. Name: 'SEV-B'
+
+- Time period: '24/7'
+- Hour setting: '4 hours'
+
+<p>SEV-B is similar to SEV-A. It has medium to high priority. In this example, due to the 24/7 setting, if a ticket came in even on the weekend such as Saturday afternoon 12pm, it should be resolved by Saturday afternoon 4pm.</p>
+
+- select 'Add Plan'
+
+5. Select 'Add new SLA Plan'
+6. Name: 'SEV-C'
+
+- Time period: '8 hours, Monday-Friday (normal business days)
+- Hour setting: '8 hours'
+  
+<p>This is an example of a ticket that is less urgent. If a ticket came in on the weekend, it wouldn't have to be resolved until the following business day. If a ticket came in Monday afternoon at 4pm, and the office closes at 5pm, then there'd be 7 hours remaining the following business day to resolve the ticket.</p>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Item 8: Configure Help Topics</h3>
+
+<strong>What are Help Topics?</Strong>
+
+<p>Help Topics are essentially common issues that may arise. Help Topics are created to help end-users/customers communicate the technical difficulties they're facing. According to osTicket, "Help Topics will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket...Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low."
+  
+  osTicket documentation on Help Topics: https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html
+  
+  <p>Karen and Ken, the users we just created, can choose what they need help with when filling out tickets on their end.</p>
+  
+  1. Navigate to 'Admin Panel' > select 'Manage' > select 'Help Topics' > select 'Add a New Help Topic'
+  2. We will create the following Help Topics, leave all default settings:
+
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>Side note: It's possible to do email configuration inside of osTicket so that users can send an email and/or fill out a form. Doing so will automatically generate a ticket for Agents to access/answer. However, that won't be covered in this project.</p>
+
+<p>Now that we have installed osTicket and configured inside of it, it is time to create tickets and examine ticket lifecycles: [LINKKK]</p>
+
+
   
 
 
