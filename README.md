@@ -62,7 +62,7 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 
 <strong>What are roles in osTicket?</strong>
 
-<p>According to osTicket:</p> <br>
+<p>According to osTicket:</p>
   <p>"Roles are the permissions granted to Agents per Department that they have access to. Each Role has a set of permissions that can be checked/unchecked for agents given that Role in association with a Department they have access to. An unlimited number of roles can be created and assigned to Agents with access to various departments." -osTicket</p>
   
   osTicket documentation on Roles: https://docs.osticket.com/en/latest/Admin/Agents/Roles.html
@@ -78,28 +78,78 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 
 <br>
 
-<h3>Configure Departments</h3>
+<h3>Item 2: Configure Departments</h3>
 
+<Strong>What are Departments in osTicket?</strong>
 
+<p>In osTicket, departments are organizational units or groups that are created to manage and categorize support tickets based on different criteria. They represent different areas or teams within an organization that handle specific types of inquiries or provide support for distinct products or services. Tickets can be assigned to specific departments, allowing for efficient routing and distribution of tickets to the appropriate teams or individuals for effective resolution.</p>
 
+osTicket documentation on Departments: https://docs.osticket.com/en/latest/Admin/Agents/Departments.html
 
+1. Navigate to Admin Panel > Select 'Agents' > Select 'Departments' > Select 'Add a New Department'
+2. Give the name: 'System Administrators' 
+3. There’s many settings inside of here, including SLA. We haven’t configured SLA yet so we’ll leave these default settings. At the bottom of the screen, select “Create Dept”
 
-
-
-
-
-
-
-
-
-
-
-<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Item 3: Configure Teams</h3>
+
+<Strong>What are Teams in osTicket?</strong>
+
+<p>According to osTicket, "Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter." Essentially, if you have many Departments and you want to pool the best technicians from each Department to solve a particular issue, you can do so by creating a Team within osTicket.</p>
+
+osTicket documentation on Teams: https://docs.osticket.com/en/latest/Admin/Agents/Teams.html
+
+1. Navigate to 'Admin Panel' > Select 'Agents' > Select 'Teams' > Select 'Add a New Team'
+2. We’re going to create a Level I Support and a Level II Support. Since Level I was automatically generated, we’re going to create Level II. We can add ourselves as part of the team for fun. 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Item 4: Allow Anyone to Create Tickets</h3>
+
+<p>We're going to alter the settings so that anyone can create a ticket, even anonymously. No one requires special authentication or permissions to create a ticket.</p>
+
+1. Navigate to 'Admin Panel' > select 'Settings' > select 'User'
+2. Make the sure the following is unchecked: [ ] “Require registration and login to create tickets”
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Item 5: Configure Agents (employees)</h3>
+
+<strong>What are Agents in osTicket?</strong>
+
+<p>According to osTicket, "Agents are given access to the help desk with the intent to respond and resolve the tickets." Agents are essentially the front-line employees/workers that solve technical issues and answer tickets.</p>
+
+osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agents/Agents.html
+
+1. Navigate to 'Admin Panel' > select 'Agents' > select 'Add a New Agent'
+2. For example purposes:
+
+- Name: Jane Doe
+- Email: janedoe@osticket.com
+- username: jane.doe
+
+3. Password setting: 
+
+- select 'Set Password' > Uncheck [ ] ‘Send the agent a password reset email’
+- set password: 'Password1' > Uncheck [ ]  ‘Require password change at next login’ > select ‘Set’
+
+4. Navigate to other tabs > 'Access' > Department: 'System Administrators' & Role: 'Supreme Admin' & Teams: 'Level II Support' > select 'Create' 
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+
 
 
