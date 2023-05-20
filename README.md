@@ -143,13 +143,33 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 - select 'Set Password' > Uncheck [ ] ‘Send the agent a password reset email’
 - set password: 'Password1' > Uncheck [ ]  ‘Require password change at next login’ > select ‘Set’
 
-4. Navigate to other tabs > 'Access' > Department: 'System Administrators' & Role: 'Supreme Admin' & Teams: 'Level II Support' > select 'Create' 
+4. Navigate to other tabs > 'Access' > Department: 'System Administrators' & Role: 'Supreme Admin' & Extended Access: 'Level II Support' > select 'Create' 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
+5. Navigate to 'Admin Panel' > select 'Agents' > select 'Add a New Agent'
+6. For example purposes:
 
+- Name: John Doe
+- Email: johnedoe@osticket.com
+- username: john.doe
+
+
+7. Password setting:
+
+- select 'Set Password' > Uncheck [ ] ‘Send the agent a password reset email’
+- set password: 'Password1' > Uncheck [ ] ‘Require password change at next login’ > select ‘Set’
+
+8. Navigate to other tabs > 'Access' > Department: 'Support' & Role: 'View Only' & Extended Access: 'Support' > select 'Create'
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Item 6: Configure Users (customers)</h3>
 
 
