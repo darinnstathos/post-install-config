@@ -30,6 +30,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Item 7: Configure SLA
 - Item 8: Configure Help Topics
 
+<h2>Prerequisites</h2>
+
+In the previous project, we installed osTicket and items to allow osTicket to run effectively. In order to do this project, osTicket must already be installed. Link to installing osTicket: [LINKKKKKK]
+
 <h2>Configuration Steps</h2>
 
 
