@@ -169,8 +169,8 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 
 8. Navigate to other tabs > 'Access' > Department: 'Support' & Role: 'View Only' & Extended Access: 'Support' > select 'Create'
 
-<img src="https://i.imgur.com/CUEDxBt.png.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/FKGap9O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OYXVn5r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kswpMp3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
@@ -198,8 +198,8 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Email: ken@osticket.com
 - Name: Ken Ken
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CUEDxBt.png.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FKGap9O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
