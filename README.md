@@ -279,10 +279,10 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Equipment Request
 - Password Reset
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Sr84UFm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BXMEpky.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rhPpXkw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WGl6wH0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>Side note: It's possible to do email configuration inside of osTicket so that users can send an email and/or fill out a form. Doing so will automatically generate a ticket for Agents to access/answer. However, that won't be covered in this project.</p>
 
