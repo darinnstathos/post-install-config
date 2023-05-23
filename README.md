@@ -43,9 +43,9 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 3. Navigate to URL for admin login:  http://localhost/osTicket/scp/login.php
 4. Log in with the admin username & password created in step 3 of the previous lab. (Example: darin_admin)
 
-<img src="https://i.imgur.com/lPmZ75w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Rf686pZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/LLYZLar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e6mEVrm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yD891Ta.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br>
 
@@ -74,8 +74,9 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
   2. Give the name: 'Supreme Admin' > Navigate to ‘Permissions’ tab
   3. For the fun of it, we’re going to allow them to do everything: Check all the boxes [X] under the ‘Tickets’, ‘Tabs’, and ‘Knowledge Base’ > select 'Add Role'
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lPmZ75w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Rf686pZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LLYZLar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
