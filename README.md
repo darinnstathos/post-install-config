@@ -108,8 +108,8 @@ osTicket documentation on Teams: https://docs.osticket.com/en/latest/Admin/Agent
 1. Navigate to 'Admin Panel' > Select 'Agents' > Select 'Teams' > Select 'Add a New Team'
 2. We’re going to create a Level I Support and a Level II Support. Since Level I was automatically generated, we’re going to create Level II. We can add ourselves as part of the team for fun. 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sctylJ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/efO4gEq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
