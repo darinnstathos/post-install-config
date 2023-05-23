@@ -214,6 +214,9 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
   osTicket documentation on SLAs: https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html
   
   1. Navigate to 'Admin Panel' > select 'Manage' > select 'SLA' > select 'Add a New SLA Plan'
+
+<img src="https://i.imgur.com/F6yVy0o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
   2. Name: 'SEV-A'
 
 <p>In this example, SEV-A is meant to symbolize a top-priority SLA ticket that has significant business impact if not resolved. An example of a SEV-A ticket would be the entire western region's computers going down or a malware attack leaking user and company private information.</p>
@@ -228,6 +231,9 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 - select 'Add Plan'
 
+<img src="https://i.imgur.com/7SSCJNv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 3. Select 'Add new SLA Plan' 
 4. Name: 'SEV-B'
 
@@ -238,6 +244,9 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 - select 'Add Plan'
 
+<img src="https://i.imgur.com/0Cto6Ym.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 5. Select 'Add new SLA Plan'
 6. Name: 'SEV-C'
 
@@ -246,8 +255,9 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
   
 <p>This is an example of a ticket that is less urgent. If a ticket came in on the weekend, it wouldn't have to be resolved until the following business day. If a ticket came in Monday afternoon at 4pm, and the office closes at 5pm, then there'd be 7 hours remaining the following business day to resolve the ticket.</p>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XcO754R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sTm4Hbc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br>
 
