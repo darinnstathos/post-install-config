@@ -92,8 +92,8 @@ osTicket documentation on Departments: https://docs.osticket.com/en/latest/Admin
 2. Give the name: 'System Administrators' 
 3. There’s many settings inside of here, including SLA. We haven’t configured SLA yet so we’ll leave these default settings. At the bottom of the screen, select “Create Dept”
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EW5SMbk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GzJhqAk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
