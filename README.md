@@ -189,7 +189,8 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Email: karen@osticket.com
 - Name: Karen Karen
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p8mvMma.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LWFOYTp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 4. Navigate back to 'Users' > Select 'Add a New User'
 5. For example purposes:
