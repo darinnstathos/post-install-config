@@ -145,10 +145,12 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 - select 'Set Password' > Uncheck [ ] ‘Send the agent a password reset email’
 - set password: 'Password1' > Uncheck [ ]  ‘Require password change at next login’ > select ‘Set’
 
-4. Navigate to other tabs > 'Access' > Department: 'System Administrators' & Role: 'Supreme Admin' & Extended Access: 'Level II Support' > select 'Create' 
+4. Navigate to'Access' tab > Department: 'System Administrators' & Role: 'Supreme Admin' 
+5. Navigate to 'Teams' tab > Select 'Level II Support' for Assigned Teams > select 'Create' 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2PQZOQ8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Zna1nLT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UBg9gIg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
