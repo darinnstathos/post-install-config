@@ -43,8 +43,8 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 3. Navigate to URL for admin login:  http://localhost/osTicket/scp/login.php
 4. Log in with the admin username & password created in step 3 of the previous lab. (Example: darin_admin)
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e6mEVrm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yD891Ta.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
