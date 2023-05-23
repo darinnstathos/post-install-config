@@ -120,8 +120,8 @@ osTicket documentation on Teams: https://docs.osticket.com/en/latest/Admin/Agent
 1. Navigate to 'Admin Panel' > select 'Settings' > select 'User'
 2. Make the sure the following is unchecked: [ ] “Require registration and login to create tickets”
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Lp80F0t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br>
 
