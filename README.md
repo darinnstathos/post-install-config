@@ -6,9 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -36,12 +33,14 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 
 <h2>Configuration Steps</h2>
 
-<h3>Access osTicket</h3>
+<h3>🔵 Access osTicket</h3>
 
 1. Navigate to Microsoft Azure portal > select ‘Virtual Machines’ > select ‘VM-osTicket > copy the Public IP address (Example: 20.14.93.5)
-2. Open Microsoft Remote Connection (for Windows) or launch Microsoft Remote Desktop app (for MacOS) > paste Public IP address > log in with the username/password created in step 1 of this lab: [LINKKKK]
+2. Open Microsoft Remote Connection (for Windows) or launch Microsoft Remote Desktop app (for MacOS) > paste Public IP address > log in with the username/password created in step 1 of the previous lab: https://github.com/darinnstathos/osticket-prereqs.git
 3. Navigate to URL for admin login:  http://localhost/osTicket/scp/login.php
 4. Log in with the admin username & password created in step 3 of the previous lab. (Example: darin_admin)
+
+<br>
 
 <img src="https://i.imgur.com/e6mEVrm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/yD891Ta.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -49,7 +48,7 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 
 <br>
 
-<h3>Admin vs Agent Portal</h3>
+<h3>🔵 Admin vs Agent Portal</h3>
 
 <p>Within osTicket, there is both an Admin Portal and an Agent Portal. We're going to be working with both portals.</p>
 
@@ -59,7 +58,7 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 
 <br>
 
-<h3>Item 1: Configure Roles</h3>
+<h3>🟢 Item 1: Configure Roles</h3>
 
 <strong>What are roles in osTicket?</strong>
 
@@ -74,13 +73,15 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
   2. Give the name: 'Supreme Admin' > Navigate to ‘Permissions’ tab
   3. For the fun of it, we’re going to allow them to do everything: Check all the boxes [X] under the ‘Tickets’, ‘Tabs’, and ‘Knowledge Base’ > select 'Add Role'
 
+<br>
+
 <img src="https://i.imgur.com/lPmZ75w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Rf686pZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/LLYZLar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
-<h3>Item 2: Configure Departments</h3>
+<h3>🟢 Item 2: Configure Departments</h3>
 
 <Strong>What are Departments in osTicket?</strong>
 
@@ -92,12 +93,14 @@ osTicket documentation on Departments: https://docs.osticket.com/en/latest/Admin
 2. Give the name: 'System Administrators' 
 3. There’s many settings inside of here, including SLA. We haven’t configured SLA yet so we’ll leave these default settings. At the bottom of the screen, select “Create Dept”
 
+<br>
+
 <img src="https://i.imgur.com/EW5SMbk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/GzJhqAk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
-<h3>Item 3: Configure Teams</h3>
+<h3>🟢 Item 3: Configure Teams</h3>
 
 <Strong>What are Teams in osTicket?</strong>
 
@@ -106,26 +109,30 @@ osTicket documentation on Departments: https://docs.osticket.com/en/latest/Admin
 osTicket documentation on Teams: https://docs.osticket.com/en/latest/Admin/Agents/Teams.html
 
 1. Navigate to 'Admin Panel' > Select 'Agents' > Select 'Teams' > Select 'Add a New Team'
-2. We’re going to create a Level I Support and a Level II Support. Since Level I was automatically generated, we’re going to create Level II. We can add ourselves as part of the team for fun. 
+2. We’re going to create a Level I Support and a Level II Support. Since Level I was automatically generated, we’re going to create 'Level II Support'. We can add ourselves as part of the team for fun. 
+
+<br>
 
 <img src="https://i.imgur.com/sctylJ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/efO4gEq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
-<h3>Item 4: Allow Anyone to Create Tickets</h3>
+<h3>🟢 Item 4: Allow Anyone to Create Tickets</h3>
 
 <p>We're going to alter the settings so that anyone can create a ticket, even anonymously. No one requires special authentication or permissions to create a ticket.</p>
 
 1. Navigate to 'Admin Panel' > select 'Settings' > select 'User'
 2. Make the sure the following is unchecked: [ ] “Require registration and login to create tickets”
 
+<br>
+
 <img src="https://i.imgur.com/Lp80F0t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <br>
 
-<h3>Item 5: Configure Agents (employees)</h3>
+<h3>🟢 Item 5: Configure Agents (employees)</h3>
 
 <strong>What are Agents in osTicket?</strong>
 
@@ -148,6 +155,8 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 4. Navigate to'Access' tab > Department: 'System Administrators' & Role: 'Supreme Admin' 
 5. Navigate to 'Teams' tab > Select 'Level II Support' for Assigned Teams > select 'Create' 
 
+<br>
+
 <img src="https://i.imgur.com/2PQZOQ8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Zna1nLT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/UBg9gIg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -167,14 +176,19 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 - select 'Set Password' > Uncheck [ ] ‘Send the agent a password reset email’
 - set password: 'Password1' > Uncheck [ ] ‘Require password change at next login’ > select ‘Set’
 
+<p>**Side note: It is good practice to require users to change their password upon each login. However, for this exercise, we won't require this.</p>
+<br>
+  
 8. Navigate to other tabs > 'Access' > Department: 'Support' & Role: 'View Only' & Extended Access: 'Support' > select 'Create'
+
+<br>
 
 <img src="https://i.imgur.com/OYXVn5r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/kswpMp3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
-<h3>Item 6: Configure Users (customers)</h3>
+<h3>🟢 Item 6: Configure Users (customers)</h3>
 
 <Strong>What are Users?</strong>
 
@@ -189,8 +203,12 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Email: karen@osticket.com
 - Name: Karen Karen
 
+<br>
+
 <img src="https://i.imgur.com/p8mvMma.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/LWFOYTp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
 
 4. Navigate back to 'Users' > Select 'Add a New User'
 5. For example purposes:
@@ -198,12 +216,14 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Email: ken@osticket.com
 - Name: Ken Ken
 
+<br>
+
 <img src="https://i.imgur.com/CUEDxBt.png.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/FKGap9O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
-<h3>Item 7: Configure SLA</h3>
+<h3>🟢 Item 7: Configure SLA</h3>
 
 <Strong>What are SLAs?</strong>
 
@@ -215,24 +235,31 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
   
   1. Navigate to 'Admin Panel' > select 'Manage' > select 'SLA' > select 'Add a New SLA Plan'
 
+<br>
+
 <img src="https://i.imgur.com/F6yVy0o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
 
   2. Name: 'SEV-A'
 
-<p>In this example, SEV-A is meant to symbolize a top-priority SLA ticket that has significant business impact if not resolved. An example of a SEV-A ticket would be the entire western region's computers going down or a malware attack leaking user and company private information.</p>
+<p>In this example, SEV-A is meant to symbolize a top-priority SLA ticket that has significant business impact if not resolved. An example of a SEV-A ticket would be the entire western region's mobile banking going down or a malware attack leaking user and company private information.</p>
 
 - Time period: '24/7'
 
-<p>This means that this ticket should be solved as soon as possible within the time scope set in the next section. This means that is a ticket comes in even on the weekend, it must be resolved within the time frame created below.</p>
+<p>This means that this ticket should be solved as soon as possible within the time scope set in the next section. This means that if a ticket comes in even on the weekend, it must be resolved within the time frame created below.</p>
 
 - Hour setting: '1 hour'
 
-<p>1 hour to solve a ticket is highly unreasonable. However, in this example, it's meant to depict how soon the ticket should be resolved or the time span granted to resolve the ticket. Since SEV-A is the most crucial type of ticket, it should be solved as soon as possible. Thus, if a SEV-A ticket came in Saturday morning 8am, it should be resolved by Saturday morning 9am.</p>
+<p>1 hour to solve a ticket is highly unreasonable. However, in this example, it's meant to depict how soon the ticket should be resolved or the time span granted to resolve the ticket. Since SEV-A is the most crucial type of ticket, it should be solved as soon as possible. Thus, for example, if a SEV-A ticket came in Saturday morning 8am, it should be resolved by Saturday morning 9am.</p>
 
 - select 'Add Plan'
 
+<br>
+
 <img src="https://i.imgur.com/7SSCJNv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<br>
 
 3. Select 'Add new SLA Plan' 
 4. Name: 'SEV-B'
@@ -244,8 +271,11 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 - select 'Add Plan'
 
+<br>
+
 <img src="https://i.imgur.com/0Cto6Ym.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<br>
 
 5. Select 'Add new SLA Plan'
 6. Name: 'SEV-C'
@@ -253,7 +283,9 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Time period: '8 hours, Monday-Friday (normal business days)
 - Hour setting: '8 hours'
   
-<p>This is an example of a ticket that is less urgent. If a ticket came in on the weekend, it wouldn't have to be resolved until the following business day. If a ticket came in Monday afternoon at 4pm, and the office closes at 5pm, then there'd be 7 hours remaining the following business day to resolve the ticket.</p>
+<p>This is an example of a ticket that is less urgent. If a ticket came in on the weekend, it wouldn't have to be resolved until the following business day. If a ticket came in Monday afternoon at 4pm, and the office closes at 5pm, then there'd be 7 hours remaining the following business day to resolve the ticket. If the office opens at 8am,you would have until Tuesday 3pm to resolve the ticket. </p>
+
+<br>
 
 <img src="https://i.imgur.com/XcO754R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/sTm4Hbc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -261,7 +293,7 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 <br>
 
-<h3>Item 8: Configure Help Topics</h3>
+<h3>🟢 Item 8: Configure Help Topics</h3>
 
 <strong>What are Help Topics?</Strong>
 
@@ -279,10 +311,14 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 - Equipment Request
 - Password Reset
 
+<br>
+
 <img src="https://i.imgur.com/Sr84UFm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/BXMEpky.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/rhPpXkw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/WGl6wH0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
 
 <p>Side note: It's possible to do email configuration inside of osTicket so that users can send an email and/or fill out a form. Doing so will automatically generate a ticket for Agents to access/answer. However, that won't be covered in this project.</p>
 
