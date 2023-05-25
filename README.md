@@ -297,7 +297,9 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 <strong>What are Help Topics?</Strong>
 
-<p>Help Topics are essentially common issues that may arise. Help Topics are created to help end-users/customers communicate the technical difficulties they're facing. According to osTicket, "Help Topics will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket...Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low."
+<p>Help Topics are essentially common issues that may arise. Help Topics are created to help end-users/customers communicate the technical difficulties they're facing.</p>
+
+<p>According to osTicket, "Help Topics will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket...Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low."</p>
   
   osTicket documentation on Help Topics: https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html
   
