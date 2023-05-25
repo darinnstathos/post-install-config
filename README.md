@@ -245,11 +245,11 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 <p>In this example, SEV-A is meant to symbolize a top-priority SLA ticket that has significant business impact if not resolved. An example of a SEV-A ticket would be the entire western region's mobile banking going down or a malware attack leaking user and company private information.</p>
 
-- Time period: '24/7'
+- Schedule: '24/7'
 
 <p>This means that this ticket should be solved as soon as possible within the time scope set in the next section. This means that if a ticket comes in even on the weekend, it must be resolved within the time frame created below.</p>
 
-- Hour setting: '1 hour'
+- Grace period: '1 hour'
 
 <p>1 hour to solve a ticket is highly unreasonable. However, in this example, it's meant to depict how soon the ticket should be resolved or the time span granted to resolve the ticket. Since SEV-A is the most crucial type of ticket, it should be solved as soon as possible. Thus, for example, if a SEV-A ticket came in Saturday morning 8am, it should be resolved by Saturday morning 9am.</p>
 
@@ -264,8 +264,8 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 3. Select 'Add new SLA Plan' 
 4. Name: 'SEV-B'
 
-- Time period: '24/7'
-- Hour setting: '4 hours'
+- Grace period: '4 hours'
+- Schedule: '24/7'
 
 <p>SEV-B is similar to SEV-A. It has medium to high priority. In this example, due to the 24/7 setting, if a ticket came in even on the weekend such as Saturday afternoon 12pm, it should be resolved by Saturday afternoon 4pm.</p>
 
@@ -280,8 +280,8 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 5. Select 'Add new SLA Plan'
 6. Name: 'SEV-C'
 
-- Time period: '8 hours, Monday-Friday (normal business days)
-- Hour setting: '8 hours'
+- Grace period: '8 hours'
+- Schedule: '8 hours, Monday-Friday (normal business days)'
   
 <p>This is an example of a ticket that is less urgent. If a ticket came in on the weekend, it wouldn't have to be resolved until the following business day. If a ticket came in Monday afternoon at 4pm, and the office closes at 5pm, then there'd be 7 hours remaining the following business day to resolve the ticket. If the office opens at 8am,you would have until Tuesday 3pm to resolve the ticket. </p>
 
