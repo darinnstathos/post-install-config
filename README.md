@@ -54,7 +54,7 @@ In the previous project, we installed osTicket and items to allow osTicket to ru
 
 <p>The Admin Portal is designed for administrators to manage the osTicket ticketing system. It provides access to various administrative functions such as configuring support queues, managing staff members and permissions, and customizing system settings to efficiently handle and resolve customer support tickets.</p>
 
-<p>The agent portal within osTicket is a web-based interface designed for support agents or staff members. It allows agents to access and manage support tickets assigned to them, communicate with customers, update ticket statuses, and collaborate with other agents to provide timely and effective customer support within the osTicket ticketing system.</p>
+<p>The Agent Portal within osTicket is a web-based interface designed for support agents or staff members. It allows agents to access and manage support tickets assigned to them, communicate with customers, update ticket statuses, and collaborate with other agents to provide timely and effective customer support within the osTicket ticketing system.</p>
 
 <br>
 
