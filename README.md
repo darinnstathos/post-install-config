@@ -32,7 +32,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Prerequisites</h2>
 
-In the previous project, we installed osTicket and items to allow osTicket to run effectively. In order to do this project, osTicket must already be installed. Link to installing osTicket: [LINKKKKKK]
+In the previous project, we installed osTicket and items to allow osTicket to run effectively. In order to do this project, osTicket must already be installed. Link to installing osTicket: https://github.com/darinnstathos/osticket-prereqs.git
 
 <h2>Configuration Steps</h2>
 
@@ -286,7 +286,7 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 <p>Side note: It's possible to do email configuration inside of osTicket so that users can send an email and/or fill out a form. Doing so will automatically generate a ticket for Agents to access/answer. However, that won't be covered in this project.</p>
 
-<p>Now that we have installed osTicket and configured inside of it, it is time to create tickets and examine ticket lifecycles: [LINKKK]</p>
+<p>Now that we have installed osTicket and configured inside of it, it is time to create tickets and examine ticket lifecycles: https://github.com/darinnstathos/ticket-lifecycle.git </p>
 
 
   
