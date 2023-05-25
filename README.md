@@ -91,7 +91,7 @@ osTicket documentation on Departments: https://docs.osticket.com/en/latest/Admin
 
 1. Navigate to Admin Panel > Select 'Agents' > Select 'Departments' > Select 'Add a New Department'
 2. Give the name: 'System Administrators' 
-3. There’s many settings inside of here, including SLA. We haven’t configured SLA yet so we’ll leave these default settings. At the bottom of the screen, select “Create Dept”
+3. There’s many settings inside of here, including SLA. We haven’t configured SLA yet so we’ll leave these default settings. At the bottom of the screen, select 'Create Dept'
 
 <br>
 
@@ -152,7 +152,7 @@ osTicket documentation on Agents: https://docs.osticket.com/en/latest/Admin/Agen
 - select 'Set Password' > Uncheck [ ] ‘Send the agent a password reset email’
 - set password: 'Password1' > Uncheck [ ]  ‘Require password change at next login’ > select ‘Set’
 
-4. Navigate to'Access' tab > Department: 'System Administrators' & Role: 'Supreme Admin' 
+4. Navigate to 'Access' tab > Department: 'System Administrators' & Role: 'Supreme Admin' 
 5. Navigate to 'Teams' tab > Select 'Level II Support' for Assigned Teams > select 'Create' 
 
 <br>
